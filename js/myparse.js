@@ -37,6 +37,19 @@ const myParse = (object) => {
         return filtradoFinal
     }
 }
+function parser (array){
+    // este callback servira para cambiar los valores a boolean o numerico segun corresponda
+    if(array[1] === "null") array[1] = null;
+    if(array[1] === "true") array[1] = true;
+
+    var RE = /^\d*(\.\d{1})?\d{0,1}$/;
+    
+    if (RE.test(array[1])) {
+        array[1] = parseInt(array[1]);
+    }
+
+    }
+
 /* la funcion setObject toma el array que devuelve clean y lo recorre, utilizando banderas y marcadores, cada vez que encuente un corchete,
 genera un array y asi mismo cuando encuentra una llave genera un objeto y luego mientras recorre pone cada sub array
  con su clave valor en objeto que le corresponde, y luego lo envia por consola */
@@ -55,6 +68,9 @@ genera un array y asi mismo cuando encuentra una llave genera un objeto y luego 
         for(let i = 0; i< array.length; i++ ){
 
             array[i] = array[i].split(" : ")
+
+            parser (array[i]);
+
 
             if(array[i][0] !== "{" && array[i][0] !== "}" && marca === false && banderaUno === false ){
                 json[array[i][0]] = array[i][1]
@@ -94,7 +110,6 @@ genera un array y asi mismo cuando encuentra una llave genera un objeto y luego 
                 banderaUno = false;
             }
         }
-        console.log(array)
 
     }
     
