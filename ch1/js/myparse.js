@@ -38,7 +38,7 @@ const myParse = (object) => {
     }
 }
 function parser (array){
-    // este callback servira para cambiar los valores a boolean o numerico segun corresponda
+    // este callback servira para cambiar los valores a boolean, null o numerico segun corresponda
     if(array[1] === "null") array[1] = null;
     if(array[1] === "true") array[1] = true;
 
