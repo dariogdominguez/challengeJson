@@ -17,13 +17,13 @@ let [id, cb] = params
 console.log(filtered);
 }
 
-const Promesas = async(endPoint) =>{
+const promesas = async(endPoint) =>{
     return fetch(endPoint)
     .then(response => response.json())
     .then(data => data);
 }
 
-const AsyncAwait = async(endPoint) =>{
+const asyncAwait = async(endPoint) =>{
     const json = await fetch(endPoint);
     const data = await json.json();
     return data;
@@ -54,5 +54,5 @@ function filterById(...params) {
     return albums.filter(e => e.id === id);
 }
 
-getUsers(Promesas);
-getAlbums(2, AsyncAwait);
+getUsers(promesas);
+getAlbums(2, asyncAwait);
