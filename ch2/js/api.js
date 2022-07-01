@@ -2,7 +2,6 @@ const endPointUno = "https://jsonplaceholder.typicode.com/users"
 const endPointDos = "https://jsonplaceholder.typicode.com/users/1/albums"
 
 const getUsers = async(cb) => {
-
     let data = await cb(endPointUno)
     let copy = [...data]
         mapUsers(copy);
@@ -18,13 +17,13 @@ let [id, cb] = params
 console.log(filtered);
 }
 
-const forma1 = async(endPoint) =>{
+const Promesas = async(endPoint) =>{
     return fetch(endPoint)
     .then(response => response.json())
     .then(data => data);
 }
 
-const forma2 = async(endPoint) =>{
+const AsyncAwait = async(endPoint) =>{
     const json = await fetch(endPoint);
     const data = await json.json();
     return data;
@@ -55,5 +54,5 @@ function filterById(...params) {
     return albums.filter(e => e.id === id);
 }
 
-getUsers(forma1);
-getAlbums(3, forma2);
+getUsers(Promesas);
+getAlbums(2, AsyncAwait);
