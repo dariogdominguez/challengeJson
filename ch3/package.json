@@ -1,0 +1,19 @@
+{
+  "name": "challenge3",
+  "version": "1.0.0",
+  "description": "challenge NPM (nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariogdominguez/challengeJson.git"
+  },
+  "author": "dominguez.dario@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariogdominguez/challengeJson/issues"
+  },
+  "homepage": "https://github.com/dariogdominguez/challengeJson#readme"
+}
