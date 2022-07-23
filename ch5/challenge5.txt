@@ -1,0 +1,33 @@
+componentes:
+
+- App.js
+- Header.js (logo y el mensaje de bienvenida).
+- tripMaker.js
+- tripBuilder.js
+- tripItem.js
+- tripButton.js
+- tripSummary.js
+
+    -si es PROMO (una vez adquirida la promoció no se puede cancelar, y además aparece en el carro).
+    -si es RESERVAR (se reserva y se envía un mail de reserva, no aparece en el carro).
+    -si es COMPRAR (se compra y se envía un mail de compra, aparece en el carro).
+    -si es CANCELAR (en el caso de la reserva sólo se envía un correo de cancelación de reserva, en el caso de la compra se envía el mail de cancelación de la compra y desaparece del carrito).
+
+    CANCELAR cancela la última operación. Si yo compré dos productos, sólo puedo cancelar el último.
+
+/public/images/
+    -img01.jpg 
+    -img02.jpg
+    -img03.jpg
+
+user = {
+    name:
+    email:
+}
+
+
+(oopcional)
+
+- encima de las tarjetitas, puden hacer aparecer de forma aleatoria (estático) una oferta... tipo:
+"viaje a las Bahamas con un 10% de descuento..."
+"reserve hoy en el crucer... últimos lugares!! "
