@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Mi primera Historia",
+      "content": "Esta es la primera historia de mi vida..."
+    }
+  ],
+  "users": [
+    {
+      "name": "Homero Simpson",
+      "email": "hsimpson@mail.com",
+      "password": "123"
+    },
+    {
+      "id": "blablabla",
+      "name": "Dario",
+      "email": "hsimpson@mail.com",
+      "password": "123"
+    },
+    {
+      "id": 1659129449408,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659129663899,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659129756024,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659129772138,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659129861885,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659129891989,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659130048235,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659130096496,
+      "name": "Dario",
+      "email": "dominguez.dario@gmail.com",
+      "password": "unpassword"
+    },
+    {
+      "id": 1659131258596,
+      "name": "Dario",
+      "email": "garren_el_rojo@hotmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 1659135534110,
+      "name": "romualdo",
+      "email": "romualgo@mail.com",
+      "password": "12345"
+    }
+  ]
+}

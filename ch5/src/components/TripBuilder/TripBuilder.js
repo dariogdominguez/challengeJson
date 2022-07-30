@@ -10,7 +10,7 @@ const paquetes = [
         image: "img01.jpg", 
         name: "Perito Moreno",
         description: "Paseo por el glaciar Perito Moreno",
-        price: "$ 30.000 ars",
+        price: 30.000,
         button: "Promo"
 
     },
@@ -18,7 +18,7 @@ const paquetes = [
         image: "img02.jpg", 
         name: "Brasil",
         description: "Tour por las mejores playas del norte de Brasil",
-        price: "$ 50.000 ars",
+        price: 50.000,
         button: "Reserva"
 
 
@@ -27,7 +27,7 @@ const paquetes = [
         image: "img03.jpg", 
         name: "Patagonia",
         description: "Avistamiento de pinguinos en la patagonia Argentina",
-        price: "$ 90.000 ars",
+        price: 90.000 ,
         button: "Comprar"
 
     }

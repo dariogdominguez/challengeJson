@@ -14,7 +14,7 @@ export const useTripContext = () => useContext(TripContext);
 function reducer(state, item) {
     if(item === "pop") return state.slice(0, (state.length - 1));
     console.log(state)
-    return [...state, item];
+    return state.push(item);
 }
 
 export default function TripMaker(){
